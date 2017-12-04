@@ -11,4 +11,16 @@ let myfunc (input: string) =
     then result <- result + (int)lastItem - 48
     result
 
+let myfunc2 (input: string) =
+    let mutable result = 0
+    let array = input.ToCharArray()
+    let halfOfArray = array.Length/2
+    let lastItem = array   
+                   |> Array.mapi(fun i item ->
+                                    if item = array.[(i+halfOfArray)%array.Length]
+                                    then result <- result + (int)item - 48
+                                    item)
+    result
+
 myfunc input
+myfunc2 input
