@@ -1,4 +1,4 @@
-
+open System
 let number = 347991.0
 
 let root = (int) (Math.Ceiling(Math.Sqrt(number)))
@@ -12,3 +12,6 @@ let shortPaths = [firstShortPath ; firstShortPath+shortStep; firstShortPath+shor
 let distances = shortPaths |> List.map (fun num -> Math.Abs(num - (int)number))
 let result = circle + List.min distances
 result
+
+//----------------------------
+
