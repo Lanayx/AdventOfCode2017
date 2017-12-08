@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="2.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="1.fsx" />
     <None Include="2.fsx" />
     <None Include="3.fsx" />
