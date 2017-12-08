@@ -11,12 +11,14 @@
 
   <ItemGroup>
     <Content Include="2.txt" />
+    <Content Include="4.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="1.fsx" />
     <None Include="2.fsx" />
     <None Include="3.fsx" />
+    <None Include="4.fsx" />
   </ItemGroup>
 
 </Project>
