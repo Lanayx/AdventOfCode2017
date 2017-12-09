@@ -12,6 +12,7 @@
   <ItemGroup>
     <Content Include="2.txt" />
     <Content Include="4.txt" />
+    <Content Include="5.txt" />
   </ItemGroup>
 
   <ItemGroup>
